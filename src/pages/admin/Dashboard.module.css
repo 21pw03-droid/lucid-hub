@@ -1,0 +1,14 @@
+.dashboard { padding: var(--spacing-2); }
+.pageTitle { font-size: var(--font-size-2xl); font-weight: var(--font-weight-bold); color: var(--text-primary); margin: 0 0 var(--spacing-2); }
+.pageSubtitle { font-size: var(--font-size-base); color: var(--text-secondary); margin: 0 0 var(--spacing-8); }
+.statsGrid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: var(--spacing-4); margin-bottom: var(--spacing-8); }
+.statCard { display: flex; align-items: center; gap: var(--spacing-4); padding: var(--spacing-5); background: var(--bg-primary); border: 1px solid var(--border-light); border-radius: var(--radius-xl); text-decoration: none; transition: all var(--transition-fast); }
+.statCard:hover { transform: translateY(-2px); box-shadow: var(--shadow-md); }
+.statIcon { display: flex; align-items: center; justify-content: center; width: 48px; height: 48px; border-radius: var(--radius-lg); }
+.statContent { display: flex; flex-direction: column; }
+.statValue { font-size: var(--font-size-2xl); font-weight: var(--font-weight-bold); color: var(--text-primary); }
+.statLabel { font-size: var(--font-size-sm); color: var(--text-secondary); }
+.quickActions h2 { font-size: var(--font-size-lg); margin-bottom: var(--spacing-4); }
+.actionGrid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: var(--spacing-3); }
+.actionCard { padding: var(--spacing-4); background: var(--bg-primary); border: 1px solid var(--border-light); border-radius: var(--radius-lg); text-align: center; text-decoration: none; color: var(--color-primary-900); font-weight: var(--font-weight-medium); transition: all var(--transition-fast); }
+.actionCard:hover { background: var(--color-accent-50); border-color: var(--color-accent-200); }
